@@ -1,0 +1,29 @@
+{
+  "example_robot_1": {
+    "purchase_price": 50000,
+    "operational_cost": 15,
+    "capabilities": ["pick_and_place", "assembly"],
+    "maintenance_interval": 2000,
+    "payload_capacity": 5,
+    "reach": 850,
+    "precision": 0.1,
+    "speed": "medium",
+    "environment_compatibility": ["indoor", "clean"],
+    "power_requirements": "standard",
+    "warranty": 12
+  },
+  "example_robot_2": {
+    "purchase_price": 75000,
+    "operational_cost": 20,
+    "capabilities": ["pick_and_place", "assembly", "inspection"],
+    "maintenance_interval": 1500,
+    "payload_capacity": 8,
+    "reach": 1200,
+    "precision": 0.05,
+    "speed": "high",
+    "environment_compatibility": ["indoor", "clean", "dusty"],
+    "power_requirements": "high",
+    "warranty": 24,
+    "additional_features": ["integrated_camera", "force_sensing"]
+  }
+}
